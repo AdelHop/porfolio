@@ -18,10 +18,12 @@ Potem otwórz [http://127.0.0.1:8080/](http://127.0.0.1:8080/).
 
 | Plik | Po co |
 | --- | --- |
-| `index.html` | Start: doświadczenie, wykształcenie, certyfikaty, aktualności |
+| `index.html` | Start: doświadczenie, projekty własne, wykształcenie, certyfikaty, aktualności |
 | `testy.html` | Szerzej o testach |
 | `analiza.html` | Szerzej o analizie |
-| `style.css` | Wygląd |
+| `ceramika.html` | Projekt własny: analiza aplikacji dla pracowni ceramicznych, z diagramem procesu |
+| `fitness.html` | Projekt własny: analiza aplikacji dla studia fitness, z dwoma diagramami |
+| `style.css` | Wygląd, w tym diagramy (klasy `dg-*`) |
 | `lang.js` | Przełącznik PL / EN |
 | `aktualnosci.js` | Karty Aktualności i Poza pracą |
 | `aktualnosci.json` | Treść tych kart |

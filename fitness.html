@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-pl="Fitness — Adela Hopek" data-en="Fitness — Adela Hopek">Fitness — Adela Hopek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css?v=20261107" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <nav class="tabs" aria-label="Sekcje">
+        <div class="tabs-links">
+          <a class="tab" data-nav href="/" data-pl="Start" data-en="Start">Start</a>
+          <a class="tab" data-nav href="testy" data-pl="Testy" data-en="Testing">Testy</a>
+          <a class="tab" data-nav href="analiza" data-pl="Analiza" data-en="Analysis">Analiza</a>
+          <a class="tab" data-nav href="ceramika" data-pl="Ceramika" data-en="Ceramics">Ceramika</a>
+          <a class="tab is-active" data-nav href="fitness" data-pl="Fitness" data-en="Fitness">Fitness</a>
+        </div>
+        <div class="lang-switch">
+          <button type="button" data-lang="pl" class="is-active" aria-pressed="true">PL</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+      <div class="wrapper">
+        <main>
+          <div class="project-head">
+            <h1 class="page-title" data-pl="Fitness" data-en="Fitness">Fitness</h1>
+            <span class="status-badge" data-pl="w budowie" data-en="in progress">w budowie</span>
+          </div>
+          <p class="description" data-pl="Aplikacja dla studia fitness, która zastępuje arkusze: grafik, zapisy i wypisy, karnety, obecność, rozliczenia z klientami i wypłaty trenerów. Wymagania zbierałam od właścicielki studia. Start w studiu jest zaplanowany na 12 listopada 2026." data-en="An app for a fitness studio that replaces spreadsheets: schedule, bookings and cancellations, passes, attendance, client settlements and trainer pay. I gathered the requirements from the studio owner. Go-live at the studio is planned for 12 November 2026.">Aplikacja dla studia fitness, która zastępuje arkusze: grafik, zapisy i wypisy, karnety, obecność, rozliczenia z klientami i wypłaty trenerów. Wymagania zbierałam od właścicielki studia. Start w studiu jest zaplanowany na 12 listopada 2026.</p>
+          <div class="cta">
+            <a class="cta-primary" href="https://grafit.adelahopek.pl" target="_blank" rel="noopener noreferrer" data-pl="Otwórz aplikację" data-en="Open the app">Otwórz aplikację</a>
+          </div>
+          <p class="availability" data-pl="Na stronie logowania widać publiczny grafik i wolne miejsca. Zapis wymaga konta." data-en="The login page shows the public schedule and free spots. Booking requires an account.">Na stronie logowania widać publiczny grafik i wolne miejsca. Zapis wymaga konta.</p>
+
+          <h2 class="subhead" data-pl="Analiza stanu obecnego" data-en="Current-state analysis">Analiza stanu obecnego</h2>
+          <ul class="topic-list">
+            <li data-pl="Przeanalizowałam 5 arkuszy studia: harmonogram, monitor karnetów, opis zajęć, prowadzących i regulamin." data-en="I analysed the studio’s 5 spreadsheets: schedule, pass tracker, class descriptions, trainers and terms.">Przeanalizowałam 5 arkuszy studia: harmonogram, monitor karnetów, opis zajęć, prowadzących i regulamin.</li>
+            <li data-pl="Dane są pisane ręcznie: te same zajęcia mają różne nazwy, a część wpisów to nie uczestnicy (np. „Ok”, „Odwołane”). Dlatego import wymaga przeglądu." data-en="The data is typed by hand: the same class has different names and some entries are not participants (e.g. “Ok”, “Cancelled”). The import therefore needs a review.">Dane są pisane ręcznie: te same zajęcia mają różne nazwy, a część wpisów to nie uczestnicy (np. „Ok”, „Odwołane”). Dlatego import wymaga przeglądu.</li>
+            <li data-pl="Gap analysis regulaminu i cennika: 5 niespójności do poprawy przed startem, np. ważność karnetu 30 dni w regulaminie i 29 w cenniku." data-en="Gap analysis of the terms and the price list: 5 inconsistencies to fix before go-live, e.g. a pass valid for 30 days in the terms and 29 in the price list.">Gap analysis regulaminu i cennika: 5 niespójności do poprawy przed startem, np. ważność karnetu 30 dni w regulaminie i 29 w cenniku.</li>
+          </ul>
+
+          <h2 class="subhead" data-pl="Wywiad i zakres" data-en="Interview and scope">Wywiad i zakres</h2>
+          <ul class="topic-list">
+            <li data-pl="97 pytań do właścicielki w 16 obszarach, z oznaczeniem kluczowych, które najbardziej wpływają na zakres i koszt." data-en="97 questions for the owner in 16 areas, with the key ones marked as those that most affect scope and cost.">97 pytań do właścicielki w 16 obszarach, z oznaczeniem kluczowych, które najbardziej wpływają na zakres i koszt.</li>
+            <li data-pl="Cele w kolejności właścicielki: rozliczanie klientów i trenerów, pozyskiwanie nowych osób i działanie promocji." data-en="Goals in the owner’s order: settling with clients and trainers, attracting new people and running promotions.">Cele w kolejności właścicielki: rozliczanie klientów i trenerów, pozyskiwanie nowych osób i działanie promocji.</li>
+            <li data-pl="Kryterium sukcesu: od dnia startu nikt nie korzysta z arkusza, a wypłaty i stan karnetów wynikają z aplikacji bez ręcznych obliczeń." data-en="Success criterion: from go-live nobody uses the spreadsheet, and trainer pay and pass balances come from the app without manual calculation.">Kryterium sukcesu: od dnia startu nikt nie korzysta z arkusza, a wypłaty i stan karnetów wynikają z aplikacji bez ręcznych obliczeń.</li>
+            <li data-pl="Kryteria porażki mimo działającego kodu, np. kwota, której nie da się wyjaśnić, dwie osoby na jednym miejscu albo trener widzący dane kontaktowe klientów." data-en="Failure criteria even with working code, e.g. an amount nobody can explain, two people in one spot, or a trainer seeing client contact details.">Kryteria porażki mimo działającego kodu, np. kwota, której nie da się wyjaśnić, dwie osoby na jednym miejscu albo trener widzący dane kontaktowe klientów.</li>
+            <li data-pl="Świadomie poza zakresem: płatności online, faktury, karty sportowe, zajęcia online i dane zdrowotne." data-en="Deliberately out of scope: online payments, invoices, sports cards, online classes and health data.">Świadomie poza zakresem: płatności online, faktury, karty sportowe, zajęcia online i dane zdrowotne.</li>
+          </ul>
+
+          <h2 class="subhead" data-pl="Role i prywatność" data-en="Roles and privacy">Role i prywatność</h2>
+          <ul class="topic-list">
+            <li data-pl="Pięć ról: właściciel, trener, uczestnik, osoba jednorazowa bez konta i osoba z zewnątrz. Każda widzi inny zakres danych." data-en="Five roles: owner, trainer, client, one-off guest without an account and visitor. Each sees a different set of data.">Pięć ról: właściciel, trener, uczestnik, osoba jednorazowa bez konta i osoba z zewnątrz. Każda widzi inny zakres danych.</li>
+            <li data-pl="Trener widzi tylko imię i nazwisko albo pseudonim, a uczestnik o innych zapisanych widzi tylko liczbę wolnych miejsc." data-en="A trainer sees only a name or nickname, and a client sees only the number of free spots, not who else is booked.">Trener widzi tylko imię i nazwisko albo pseudonim, a uczestnik o innych zapisanych widzi tylko liczbę wolnych miejsc.</li>
+          </ul>
+
+          <h2 class="subhead" data-pl="Proces: zapis, obecność, rozliczenie" data-en="Process: booking, attendance, settlement">Proces: zapis, obecność, rozliczenie</h2>
+          <figure class="diagram">
+            <div class="diagram-scroll"><svg viewBox="0 0 870 470" role="img" aria-labelledby="dg-fit-t" xmlns="http://www.w3.org/2000/svg"><title id="dg-fit-t" data-pl="Zapis, obecność i rozliczenie zajęć" data-en="Booking, attendance and settlement of a class">Zapis, obecność i rozliczenie zajęć</title><defs><marker id="dg-fit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-head"/></marker><marker id="dg-fit-alt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-head-alt"/></marker></defs><rect class="dg-lane" x="0" y="0" width="870" height="110"/><rect class="dg-lane-head" x="0" y="0" width="32" height="110"/><text class="dg-lane-label" x="16" y="59.5" transform="rotate(-90 16 59.5)" data-pl="Uczestnik" data-en="Client">Uczestnik</text><rect class="dg-lane-alt" x="0" y="110" width="870" height="160"/><rect class="dg-lane-head" x="0" y="110" width="32" height="160"/><text class="dg-lane-label" x="16" y="194.5" transform="rotate(-90 16 194.5)" data-pl="Aplikacja" data-en="App">Aplikacja</text><line class="dg-lane-line" x1="0" y1="110" x2="870" y2="110"/><rect class="dg-lane" x="0" y="270" width="870" height="100"/><rect class="dg-lane-head" x="0" y="270" width="32" height="100"/><text class="dg-lane-label" x="16" y="324.5" transform="rotate(-90 16 324.5)" data-pl="Trener" data-en="Trainer">Trener</text><line class="dg-lane-line" x1="0" y1="270" x2="870" y2="270"/><rect class="dg-lane-alt" x="0" y="370" width="870" height="100"/><rect class="dg-lane-head" x="0" y="370" width="32" height="100"/><text class="dg-lane-label" x="16" y="424.5" transform="rotate(-90 16 424.5)" data-pl="Właściciel" data-en="Owner">Właściciel</text><line class="dg-lane-line" x1="0" y1="370" x2="870" y2="370"/><circle class="dg-start" cx="46" cy="55" r="6"/><path class="dg-flow" d="M52 55 H64" marker-end="url(#dg-fit)"/><rect class="dg-box" x="66" y="27" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="124" y="51.5" data-pl="Zapis" data-en="Books">Zapis</tspan><tspan x="124" y="67.5" data-pl="na zajęcia" data-en="a class">na zajęcia</tspan></text><path class="dg-flow" d="M124 83 V120" marker-end="url(#dg-fit)"/><polygon class="dg-dec" points="124,118 178,150 124,182 70,150"/><text class="dg-t"><tspan x="124" y="146.5" data-pl="Karnet" data-en="Pass">Karnet</tspan><tspan x="124" y="162.5" data-pl="obejmuje?" data-en="covers it?">obejmuje?</tspan></text><path class="dg-flow" d="M178 150 H192" marker-end="url(#dg-fit)"/><text class="dg-label" x="180" y="134" text-anchor="middle" data-pl="tak" data-en="yes">tak</text><rect class="dg-box" x="194" y="122" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="252" y="138.5" data-pl="Zużywa" data-en="Uses an">Zużywa</tspan><tspan x="252" y="154.5" data-pl="wejście" data-en="entry from">wejście</tspan><tspan x="252" y="170.5" data-pl="z karnetu" data-en="the pass">z karnetu</tspan></text><path class="dg-flow" d="M124 182 V202" marker-end="url(#dg-fit)"/><text class="dg-label" x="131" y="197" text-anchor="start" data-pl="nie" data-en="no">nie</text><rect class="dg-box" x="66" y="204" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="124" y="228.5" data-pl="Zapis" data-en="Booked as">Zapis</tspan><tspan x="124" y="244.5" data-pl="„do zapłaty”" data-en="“to pay”">„do zapłaty”</tspan></text><path class="dg-flow" d="M310 150 H330"/><path class="dg-flow" d="M182 232 H330 V55 H338" marker-end="url(#dg-fit)"/><polygon class="dg-dec" points="380,27 420,55 380,83 340,55"/><text class="dg-t"><tspan x="380" y="59.5" data-pl="Wypis?" data-en="Cancels?">Wypis?</tspan></text><text class="dg-note" x="380" y="18" text-anchor="middle" data-pl="&lt; 24 h: system nie przyjmuje" data-en="&lt; 24 h: not accepted">&lt; 24 h: system nie przyjmuje</text><path class="dg-flow" d="M420 55 H508 V120" marker-end="url(#dg-fit)"/><text class="dg-label" x="464" y="47" text-anchor="middle" data-pl="≥ 24 h przed" data-en="≥ 24 h before">≥ 24 h przed</text><rect class="dg-box" x="450" y="122" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="508" y="138.5" data-pl="Zwrot wejścia" data-en="Entry or">Zwrot wejścia</tspan><tspan x="508" y="154.5" data-pl="albo kwoty" data-en="amount back">albo kwoty</tspan><tspan x="508" y="170.5" data-pl="na saldo" data-en="to balance">na saldo</tspan></text><path class="dg-flow" d="M566 150 H576" marker-end="url(#dg-fit)"/><rect class="dg-box" x="578" y="122" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="636" y="138.5" data-pl="Lista rezerwowa" data-en="Waiting list:">Lista rezerwowa</tspan><tspan x="636" y="154.5" data-pl="miejsce dla" data-en="first to">miejsce dla</tspan><tspan x="636" y="170.5" data-pl="pierwszego" data-en="confirm gets it">pierwszego</tspan></text><path class="dg-flow" d="M694 150 H712" marker-end="url(#dg-fit)"/><circle class="dg-end" cx="722" cy="150" r="8"/><circle class="dg-start" cx="722" cy="150" r="4.5"/><path class="dg-flow" d="M380 83 V290" marker-end="url(#dg-fit)"/><text class="dg-label" x="387" y="104" text-anchor="start" data-pl="bez wypisu" data-en="no cancellation">bez wypisu</text><rect class="dg-box" x="322" y="292" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="380" y="308.5" data-pl="Trener sprawdza" data-en="Trainer checks">Trener sprawdza</tspan><tspan x="380" y="324.5" data-pl="obecność" data-en="attendance">obecność</tspan><tspan x="380" y="340.5" data-pl="(do 2 h po)" data-en="(within 2 h)">(do 2 h po)</tspan></text><path class="dg-flow" d="M438 320 H466" marker-end="url(#dg-fit)"/><polygon class="dg-dec" points="508,292 548,320 508,348 468,320"/><text class="dg-t"><tspan x="508" y="324.5" data-pl="Obecny?" data-en="Present?">Obecny?</tspan></text><path class="dg-flow dg-alt" d="M508 292 V262" marker-end="url(#dg-fit-alt)"/><text class="dg-label dg-label-alt" x="515" y="282" text-anchor="start" data-pl="nie" data-en="no">nie</text><rect class="dg-box" x="450" y="204" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="508" y="220.5" data-pl="Nieobecny:" data-en="Absent: loses">Nieobecny:</tspan><tspan x="508" y="236.5" data-pl="traci wejście" data-en="the entry or">traci wejście</tspan><tspan x="508" y="252.5" data-pl="albo płaci karę" data-en="pays a fee">albo płaci karę</tspan></text><path class="dg-flow" d="M566 232 H576" marker-end="url(#dg-fit)"/><path class="dg-flow" d="M548 320 H636 V262" marker-end="url(#dg-fit)"/><text class="dg-label" x="570" y="312" text-anchor="start" data-pl="tak" data-en="yes">tak</text><rect class="dg-box" x="578" y="204" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="636" y="220.5" data-pl="Liczy się" data-en="Counts toward">Liczy się</tspan><tspan x="636" y="236.5" data-pl="do wypłaty" data-en="trainer">do wypłaty</tspan><tspan x="636" y="252.5" data-pl="trenera" data-en="pay">trenera</tspan></text><path class="dg-flow" d="M694 232 H764 V390" marker-end="url(#dg-fit)"/><rect class="dg-box" x="706" y="392" width="116" height="56" rx="6"/><text class="dg-t"><tspan x="764" y="408.5" data-pl="Sprawdza" data-en="Checks and">Sprawdza</tspan><tspan x="764" y="424.5" data-pl="i oznacza" data-en="marks pay">i oznacza</tspan><tspan x="764" y="440.5" data-pl="wypłatę" data-en="as paid">wypłatę</tspan></text><path class="dg-flow" d="M822 420 H836" marker-end="url(#dg-fit)"/><circle class="dg-end" cx="846" cy="420" r="8"/><circle class="dg-start" cx="846" cy="420" r="4.5"/></svg></div>
+            <p class="diagram-hint" data-pl="Diagram można przesunąć w bok." data-en="You can scroll the diagram sideways.">Diagram można przesunąć w bok.</p>
+            <figcaption data-pl="Diagram torów (swimlane). Zapisać może się uczestnik sam albo zapisuje go trener. Nieobecność bez wypisania liczy się jak zajęcia odbyte, więc także wlicza się do wypłaty trenera." data-en="Swimlane diagram. Clients book themselves or a trainer books them. A no-show without cancelling counts as an attended class, so it also counts toward the trainer’s pay.">Diagram torów (swimlane). Zapisać może się uczestnik sam albo zapisuje go trener. Nieobecność bez wypisania liczy się jak zajęcia odbyte, więc także wlicza się do wypłaty trenera.</figcaption>
+          </figure>
+
+          <h2 class="subhead" data-pl="Reguły biznesowe" data-en="Business rules">Reguły biznesowe</h2>
+          <ul class="topic-list">
+            <li data-pl="Zapis zużywa wejście, a wypisanie co najmniej 24 h przed zajęciami je zwraca. Przy dwóch karnetach najpierw zużywa się ten, który szybciej wygasa." data-en="A booking uses an entry, and cancelling at least 24 h before the class returns it. With two passes, the one expiring first is used first.">Zapis zużywa wejście, a wypisanie co najmniej 24 h przed zajęciami je zwraca. Przy dwóch karnetach najpierw zużywa się ten, który szybciej wygasa.</li>
+            <li data-pl="Zapis bez ważnego karnetu trafia jako „do zapłaty”, a nowo kupiony karnet sam pokrywa takie zapisy, od najstarszego." data-en="A booking without a valid pass is recorded as “to pay”, and a newly bought pass covers such bookings automatically, oldest first.">Zapis bez ważnego karnetu trafia jako „do zapłaty”, a nowo kupiony karnet sam pokrywa takie zapisy, od najstarszego.</li>
+            <li data-pl="Lista rezerwowa bez pierwszeństwa: powiadomienie dostają wszyscy, a miejsce dostaje pierwsza osoba, która potwierdzi. Serwer przydziela je atomowo." data-en="A waiting list without priority: everyone is notified and the spot goes to the first person who confirms. The server assigns it atomically.">Lista rezerwowa bez pierwszeństwa: powiadomienie dostają wszyscy, a miejsce dostaje pierwsza osoba, która potwierdzi. Serwer przydziela je atomowo.</li>
+            <li data-pl="Wypłaty trenerów: stawka za osobę, progi liczby osób, kwota stała albo miesięczna, z datą obowiązywania, żeby rozliczone miesiące się nie zmieniały." data-en="Trainer pay: per person, by headcount thresholds, fixed or monthly, with an effective date, so that settled months never change.">Wypłaty trenerów: stawka za osobę, progi liczby osób, kwota stała albo miesięczna, z datą obowiązywania, żeby rozliczone miesiące się nie zmieniały.</li>
+            <li data-pl="Każda zmiana pieniędzy to osobny, niekasowalny wpis z autorem." data-en="Every money change is a separate, non-deletable entry with its author.">Każda zmiana pieniędzy to osobny, niekasowalny wpis z autorem.</li>
+          </ul>
+
+          <h2 class="subhead" data-pl="Decyzja 24 h przed zajęciami" data-en="The decision 24 h before class">Decyzja 24 h przed zajęciami</h2>
+          <figure class="diagram">
+            <div class="diagram-scroll"><svg viewBox="0 0 870 250" role="img" aria-labelledby="dg-min-t" xmlns="http://www.w3.org/2000/svg"><title id="dg-min-t" data-pl="24 godziny przed zajęciami: czy grupa się odbędzie" data-en="24 hours before class: does the group go ahead">24 godziny przed zajęciami: czy grupa się odbędzie</title><defs><marker id="dg-min" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-head"/></marker><marker id="dg-min-alt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-head-alt"/></marker></defs><rect class="dg-lane" x="0" y="0" width="870" height="250"/><rect class="dg-box" x="20" y="97" width="140" height="56" rx="6"/><text class="dg-t"><tspan x="90" y="113.5" data-pl="24 h przed:" data-en="24 h before:">24 h przed:</tspan><tspan x="90" y="129.5" data-pl="liczba" data-en="number of">liczba</tspan><tspan x="90" y="145.5" data-pl="zapisanych" data-en="bookings">zapisanych</tspan></text><path class="dg-flow" d="M160 125 H236" marker-end="url(#dg-min)"/><polygon class="dg-dec" points="290,91 342,125 290,159 238,125"/><text class="dg-t"><tspan x="290" y="129.5" data-pl="Ile osób?" data-en="How many?">Ile osób?</tspan></text><path class="dg-flow" d="M290 91 V40 H688" marker-end="url(#dg-min)"/><text class="dg-label" x="470" y="32" text-anchor="middle" data-pl="≥ normalne minimum" data-en="≥ normal minimum">≥ normalne minimum</text><path class="dg-flow" d="M342 125 H483" marker-end="url(#dg-min)"/><text class="dg-label" x="412" y="145" text-anchor="middle" data-pl="między minimami" data-en="between minimums">między minimami</text><path class="dg-flow dg-alt" d="M290 159 V210 H688" marker-end="url(#dg-min-alt)"/><text class="dg-label dg-label-alt" x="470" y="202" text-anchor="middle" data-pl="&lt; niższe minimum" data-en="&lt; lower minimum">&lt; niższe minimum</text><rect class="dg-box" x="485" y="97" width="150" height="56" rx="6"/><text class="dg-t"><tspan x="560" y="113.5" data-pl="Trener: czy" data-en="Trainer: will">Trener: czy</tspan><tspan x="560" y="129.5" data-pl="poprowadzi?" data-en="you run it?">poprowadzi?</tspan><tspan x="560" y="145.5" data-pl="(2 h na odpowiedź)" data-en="(2 h to answer)">(2 h na odpowiedź)</tspan></text><path class="dg-flow" d="M635 125 H660 V40"/><text class="dg-label" x="667" y="90" text-anchor="start" data-pl="tak" data-en="yes">tak</text><path class="dg-flow dg-alt" d="M660 125 V210"/><text class="dg-label dg-label-alt" x="667" y="168" text-anchor="start" data-pl="nie / brak" data-en="no / no reply">nie / brak</text><rect class="dg-box" x="690" y="12" width="140" height="56" rx="6"/><text class="dg-t"><tspan x="760" y="36.5" data-pl="Zajęcia" data-en="Class">Zajęcia</tspan><tspan x="760" y="52.5" data-pl="się odbywają" data-en="goes ahead">się odbywają</tspan></text><rect class="dg-box" x="690" y="182" width="140" height="56" rx="6"/><text class="dg-t"><tspan x="760" y="198.5" data-pl="Właściciel" data-en="Owner decides">Właściciel</tspan><tspan x="760" y="214.5" data-pl="decyduje" data-en="whether">decyduje</tspan><tspan x="760" y="230.5" data-pl="o odwołaniu" data-en="to cancel">o odwołaniu</tspan></text></svg></div>
+            <p class="diagram-hint" data-pl="Diagram można przesunąć w bok." data-en="You can scroll the diagram sideways.">Diagram można przesunąć w bok.</p>
+            <figcaption data-pl="Każdy rodzaj zajęć ma dwa progi: normalne minimum i niższe minimum, przy którym trener może zgodzić się poprowadzić małą grupę. Gdy trener odmówi albo nie odpowie w ciągu 2 h, decyzję podejmuje właściciel." data-en="Each class type has two thresholds: the normal minimum and a lower minimum at which the trainer may agree to run a small group. If the trainer declines or does not answer within 2 h, the owner decides.">Każdy rodzaj zajęć ma dwa progi: normalne minimum i niższe minimum, przy którym trener może zgodzić się poprowadzić małą grupę. Gdy trener odmówi albo nie odpowie w ciągu 2 h, decyzję podejmuje właściciel.</figcaption>
+          </figure>
+
+          <h2 class="subhead" data-pl="Migracja, etapy i testy" data-en="Migration, stages and tests">Migracja, etapy i testy</h2>
+          <ul class="topic-list">
+            <li data-pl="Plan przejścia z arkuszy: import jako ostatni krok przed startem, wejścia za przyszłe zapisy odejmowane od karnetów, a klienci bez adresu e-mail przejmują profil przez osobisty link." data-en="A spreadsheet migration plan: import as the last step before go-live, entries for future bookings deducted from passes, and clients without an email take over their profile via a personal link.">Plan przejścia z arkuszy: import jako ostatni krok przed startem, wejścia za przyszłe zapisy odejmowane od karnetów, a klienci bez adresu e-mail przejmują profil przez osobisty link.</li>
+            <li data-pl="Trzy etapy budowy i ustalona kolejność odkładania funkcji, gdy termin jest zagrożony. Rozliczenia, karnety i obecność zostają zawsze." data-en="Three build stages and an agreed order for deferring features if the deadline is at risk. Settlements, passes and attendance always stay.">Trzy etapy budowy i ustalona kolejność odkładania funkcji, gdy termin jest zagrożony. Rozliczenia, karnety i obecność zostają zawsze.</li>
+            <li data-pl="W projekcie decyzje autora są oznaczone jako „propozycja” (22 miejsca), żeby właścicielka widziała, co jest do potwierdzenia." data-en="In the design, the author’s own decisions are marked as “proposal” (22 places), so the owner can see what needs confirming.">W projekcie decyzje autora są oznaczone jako „propozycja” (22 miejsca), żeby właścicielka widziała, co jest do potwierdzenia.</li>
+            <li data-pl="37 plików testów automatycznych: reguły karnetów, zapisów, wypłat, promocji i czasu (strefa Europe/Warsaw, także przy zmianie czasu), serwer z uprawnieniami i ekrany." data-en="37 automated test files: rules for passes, bookings, pay, promotions and time (Europe/Warsaw, including DST changes), the server with its permissions, and screens.">37 plików testów automatycznych: reguły karnetów, zapisów, wypłat, promocji i czasu (strefa Europe/Warsaw, także przy zmianie czasu), serwer z uprawnieniami i ekrany.</li>
+          </ul>
+
+          <h2 class="subhead" data-pl="Jak pracowałam z AI" data-en="How I worked with AI">Jak pracowałam z AI</h2>
+          <p class="note" data-pl="Kod napisał agent AI (Claude Code). Moją rolą były wymagania, decyzje, akceptacja projektu i sprawdzanie wyniku." data-en="The code was written by an AI agent (Claude Code). My role was the requirements, the decisions, approving the design and checking the result.">Kod napisał agent AI (Claude Code). Moją rolą były wymagania, decyzje, akceptacja projektu i sprawdzanie wyniku.</p>
+          <ol class="topic-list">
+            <li data-pl="Brainstorming (Superpowers): agent zadaje pytania po jednym, proponuje 2–3 warianty z kosztami i rekomendacją, a decyzję podejmuję ja. Wynikiem jest dokument projektu, który akceptuję, zanim powstanie kod." data-en="Brainstorming (Superpowers): the agent asks one question at a time and proposes 2–3 options with trade-offs and a recommendation; I make the decision. The result is a design document that I approve before any code is written.">Brainstorming (Superpowers): agent zadaje pytania po jednym, proponuje 2–3 warianty z kosztami i rekomendacją, a decyzję podejmuję ja. Wynikiem jest dokument projektu, który akceptuję, zanim powstanie kod.</li>
+            <li data-pl="Plan wdrożenia: projekt zamienia się w plan z zadaniami, testami i kryteriami ukończenia." data-en="Implementation plan: the design becomes a plan with tasks, tests and completion criteria.">Plan wdrożenia: projekt zamienia się w plan z zadaniami, testami i kryteriami ukończenia.</li>
+            <li data-pl="Wykonanie przez agentów: osobny agent na każde zadanie (subagent-driven development), testy pisane przed kodem (TDD) i przegląd kodu po zadaniach." data-en="Execution by agents: a separate agent per task (subagent-driven development), tests written before code (TDD) and code review after tasks.">Wykonanie przez agentów: osobny agent na każde zadanie (subagent-driven development), testy pisane przed kodem (TDD) i przegląd kodu po zadaniach.</li>
+            <li data-pl="Weryfikacja: zadanie jest skończone dopiero wtedy, gdy agent pokaże wynik testów. Aplikację sprawdzam też ręcznie i rozstrzygam pytania, które zostały otwarte." data-en="Verification: a task is done only when the agent shows the test results. I also check the app by hand and settle the questions left open.">Weryfikacja: zadanie jest skończone dopiero wtedy, gdy agent pokaże wynik testów. Aplikację sprawdzam też ręcznie i rozstrzygam pytania, które zostały otwarte.</li>
+          </ol>
+        </main>
+        <aside>
+          <img class="cv-photo" src="cv_zdjecie.jpg" alt="Adela Hopek" />
+          <div class="contact-blok">
+            <h2 class="head_secondary" data-pl="Kontakty" data-en="Contacts">Kontakty</h2>
+            <p>
+              <span class="contacts_link">Kraków</span><br />
+              <a class="contacts_link" href="tel:+48509221489">+48 509 221 489</a><br />
+              <a class="contacts_link" href="mailto:adelahopek@gmail.com">adelahopek@gmail.com</a><br />
+              <a class="contacts_link" href="https://www.linkedin.com/in/adela-hopek/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br />
+              <a class="contacts_link" href="Adela_Hopek_CV.pdf" data-href-pl="Adela_Hopek_CV.pdf" data-href-en="Adela_Hopek_CV_EN.pdf" download data-pl="Pobierz CV" data-en="Download CV">Pobierz CV</a>
+            </p>
+          </div>
+          <div class="list_blok">
+            <h2 class="head_secondary" data-pl="Umiejętności" data-en="Skills">Umiejętności</h2>
+            <h3 class="aside-label" data-pl="Testy" data-en="Testing">Testy</h3>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item">Playwright</span></li>
+              <li><span class="list_secondary_item">Cypress</span></li>
+              <li><span class="list_secondary_item">JavaScript</span></li>
+              <li><span class="list_secondary_item">Python</span></li>
+              <li><span class="list_secondary_item">Gherkin</span></li>
+              <li><span class="list_secondary_item">REST</span></li>
+              <li><span class="list_secondary_item">SOAP</span></li>
+              <li><span class="list_secondary_item">Postman</span></li>
+              <li><span class="list_secondary_item">SoapUI</span></li>
+              <li><span class="list_secondary_item">SQL</span></li>
+              <li><span class="list_secondary_item">MySQL</span></li>
+              <li><span class="list_secondary_item">WebPageTest</span></li>
+              <li><span class="list_secondary_item">BrowserStack</span></li>
+              <li><span class="list_secondary_item">LambdaTest</span></li>
+            </ul>
+            <h3 class="aside-label" data-pl="Analityka" data-en="Analysis">Analityka</h3>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item" data-pl="Wymagania biznesowe i systemowe" data-en="Business and system requirements">Wymagania biznesowe i systemowe</span></li>
+              <li><span class="list_secondary_item">User stories</span></li>
+              <li><span class="list_secondary_item" data-pl="Kryteria akceptacji" data-en="Acceptance criteria">Kryteria akceptacji</span></li>
+              <li><span class="list_secondary_item">User Story Mapping</span></li>
+              <li><span class="list_secondary_item">Event Storming</span></li>
+              <li><span class="list_secondary_item">Gap analysis</span></li>
+              <li><span class="list_secondary_item">PlantUML</span></li>
+              <li><span class="list_secondary_item">UML</span></li>
+              <li><span class="list_secondary_item">UAT</span></li>
+              <li><span class="list_secondary_item" data-pl="Wdrożenia end-to-end" data-en="End-to-end implementations">Wdrożenia end-to-end</span></li>
+              <li><span class="list_secondary_item" data-pl="Facylitacja warsztatów" data-en="Workshop facilitation">Facylitacja warsztatów</span></li>
+              <li><span class="list_secondary_item" data-pl="Wywiady" data-en="Interviews">Wywiady</span></li>
+            </ul>
+            <h3 class="aside-label" data-pl="Narzędzia" data-en="Tools">Narzędzia</h3>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item">Jira</span></li>
+              <li><span class="list_secondary_item">Confluence</span></li>
+              <li><span class="list_secondary_item">Xray</span></li>
+              <li><span class="list_secondary_item">TestLink</span></li>
+              <li><span class="list_secondary_item">Jenkins</span></li>
+              <li><span class="list_secondary_item">Docker</span></li>
+              <li><span class="list_secondary_item">GitHub</span></li>
+              <li><span class="list_secondary_item">Bitbucket</span></li>
+              <li><span class="list_secondary_item">Grafana</span></li>
+              <li><span class="list_secondary_item">Rollbar</span></li>
+              <li><span class="list_secondary_item">Figma</span></li>
+              <li><span class="list_secondary_item">HTML/CSS</span></li>
+              <li><span class="list_secondary_item">MS Project</span></li>
+              <li><span class="list_secondary_item">MS Excel</span></li>
+            </ul>
+            <h3 class="aside-label" data-pl="Sposób pracy" data-en="Way of working">Sposób pracy</h3>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item">Scrum</span></li>
+              <li><span class="list_secondary_item">Agile</span></li>
+              <li><span class="list_secondary_item">SDLC</span></li>
+              <li><span class="list_secondary_item">STLC</span></li>
+              <li><span class="list_secondary_item">ISTQB</span></li>
+              <li><span class="list_secondary_item">iGaming</span></li>
+              <li><span class="list_secondary_item">Windsurf</span></li>
+              <li><span class="list_secondary_item">Kilo</span></li>
+              <li><span class="list_secondary_item">Cursor</span></li>
+              <li><span class="list_secondary_item" data-pl="Serwery MCP" data-en="MCP servers">Serwery MCP</span></li>
+              <li><span class="list_secondary_item" data-pl="Skille" data-en="Skills">Skille</span></li>
+              <li><span class="list_secondary_item">Agent-Driven Development</span></li>
+              <li><span class="list_secondary_item" data-pl="Zarządzanie projektem" data-en="Project management">Zarządzanie projektem</span></li>
+              <li><span class="list_secondary_item" data-pl="Zarządzanie zespołem" data-en="Team management">Zarządzanie zespołem</span></li>
+            </ul>
+          </div>
+          <div class="list_blok">
+            <h2 class="head_secondary" data-pl="Języki" data-en="Languages">Języki</h2>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item" data-pl="Polski — ojczysty" data-en="Polish — native">Polski — ojczysty</span></li>
+              <li><span class="list_secondary_item" data-pl="Angielski — B2" data-en="English — B2">Angielski — B2</span></li>
+            </ul>
+          </div>
+          <div class="list_blok">
+            <h2 class="head_secondary" data-pl="Szukam" data-en="Looking for">Szukam</h2>
+            <ul class="list_secondary">
+              <li><span class="list_secondary_item">Business Analyst</span></li>
+              <li><span class="list_secondary_item">Technical BA</span></li>
+              <li>
+                <span
+                  class="list_secondary_item"
+                  data-pl="Hybryda QA/BA — Kraków (hybryda) albo zdalnie"
+                  data-en="Hybrid QA/BA — Kraków (hybrid) or remote"
+                >Hybryda QA/BA — Kraków (hybryda) albo zdalnie</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <script src="lang.js?v=20261014"></script>
+  </body>
+</html>
